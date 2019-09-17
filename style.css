@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  label, input, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 20px;
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
